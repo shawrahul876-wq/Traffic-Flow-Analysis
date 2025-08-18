@@ -1,0 +1,18 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Run Traffic Flow",
+            "type": "python",
+            "request": "launch",
+            "program": "F:/pythonProject1/Traffic project/traffic_flow_final.py",
+            "console": "integratedTerminal",
+            "args": [
+                "--source", "https://www.youtube.com/watch?v=MNn9qKG2UFI",
+                "--lanes", "lanes.json",
+                "--save-video",
+                "--csv"
+            ]
+        }
+    ]
+}
